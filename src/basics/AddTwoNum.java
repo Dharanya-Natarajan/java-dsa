@@ -1,13 +1,13 @@
 package basics;
-
+import java.util.Scanner;
 public class AddTwoNum {
     public static void main(String[] args){
-        int a;
-        int b;
-        a = 3;
-        b = 4;
-        int c = a+b;
-        System.out.println(c);
+        int num1, num2, res;
+        Scanner sc = new Scanner(System.in);
+        num1 = sc.nextInt();
+        num2 = sc.nextInt();
+        res = num1 + num2;
+        System.out.println(res);
 
     }
 }
